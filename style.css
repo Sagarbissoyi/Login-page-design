@@ -16,23 +16,37 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 5px 5px 10px rgb(187,187,187) , -5px -5px 10px white
+    box-shadow: 5px 5px 10px rgb(187,187,187) , -5px -5px 10px white;
     padding: 2rem;
+    gap:1rem;
 
 }
 .inputdiv{
     display: flex;
     flex-direction: column;
+    color: rgb(76, 76, 76);
 }
 input{
     width: 30rem;
     height: 2.5rem ;
     border: 5px;
     border: none;
-    box-shadow: 2px 2px 5px gray;
+    padding-left: 1rem;
+    box-shadow:inset 2px 2px 5px rgb(179,178,178);
+    margin-top: 5px;
 }
 
+button{
+    height: 2.5rem;
+    width: 8rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 3rem;
+    background-color: transparent;
+    box-shadow: 3px 3px 6px rgb(188,187,187) , -4px -4px 7px white;
 
+    cursor: pointer;
+}
 
 
 
