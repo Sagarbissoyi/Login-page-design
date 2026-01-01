@@ -29,7 +29,7 @@
 input{
     width: 30rem;
     height: 2.5rem ;
-    border: 5px;
+    border-radius: 5px;
     border: none;
     padding-left: 1rem;
     box-shadow:inset 2px 2px 5px rgb(179,178,178);
@@ -44,10 +44,11 @@ button{
     border-radius: 3rem;
     background-color: transparent;
     box-shadow: 3px 3px 6px rgb(188,187,187) , -4px -4px 7px white;
-
     cursor: pointer;
 }
-
+img{
+    height: 3rem;
+}
 
 
 
